@@ -1,2 +1,2 @@
-# wpp-python-intro
-The github repository for the Introduction to Creative Coding Course
+# Introduction to Creative Coding
+This repository is for WPP's course, *Introduction to Creative Coding*
