@@ -118,9 +118,9 @@ These statements do not evaluate to True or False, they only take our variable a
 However, the comparison operators will equal to True or False
 
 ```python
-10 * 2 == 30 >>> False
-10 * 2 != 30 >>> True
-4 > 5 >>> False
+10 * 2 == 30 # returns False
+10 * 2 != 30 # returns True
+4 > 5 # returns False
 ```
 
 Python classifies this type of a value as a **bool**.
@@ -129,7 +129,7 @@ Python classifies this type of a value as a **bool**.
 
 There will be instances when you'll want your int to become a float or your str to become an int, etc. To do this we use something called casting.
 
-```
+```python
 a = 5    # a will be 5
 str_5 = str(5) # str_ will be "5"
 float_5 = float(5) # float_5 will be 5.0
