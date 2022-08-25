@@ -30,8 +30,6 @@ jupyter notebook
 
 and hit enter.  This should open the notebook in your browser. Note your location in the command prompt determines where the notebook is opened - be mindful of this! To close the notebook hit 'Quit' in the browser or hit Ctrl+C in the command prompt.
 
-
-
 # Python Basics
 
 ### Print Statements
@@ -72,18 +70,34 @@ Meaning 8 - 2 * 4 = 0, but (8-2) * 4 = 24. We also have the operator % which is 
 You probably have already used variables before in math class, and just like in math class, variables are named entities that contain a value. To create a new variable and assign it a value we use something called an **assignment statement**.
 
 ```python
+a = 3
 x = 8 - 2 * 4
 y = (8 - 2) * 4
 welcome_string = "Welcome to the world of variables"
 ```
 
-Note that naming syntax varies from programming language to programming language, but in Python, we name our variable using all lowercase separating words with underscores. While we can use numbers in our names, we cannot start a variable name with a number.
+Note that naming syntax varies from programming language to programming language, but in Python, we name our variable using all lowercase separating words with underscores. While we can use numbers in our variable names, we cannot start a variable name with a number.
 
 ### Value Types
 
 #### String
 
-Strings are written expressions, or anything that appears in quotes. "Hello" is a string, "k" is a string, and "3534" is also a string. Python classifies type of value as a **str**.
+Strings are written expressions, or anything that appears in quotes. Strings can be enclosed in single quotes or double quotes. It makes no difference programmatically, but it is important to be consistent throughout to make your code more readable. "Hello, I'm Kat" is a string, "k" is a string, and "3534" is also a string. Python classifies this type of value as a **str**.
+
+#### Integers
+
+Integer values are whole numbers, or numbers without a decimal. Note that integers **do not** have quotes around them. "354" is a string, but 354 is an integer. This is important because
+
+```
+"123" + "456" = "123456"
+123 + 456 = 579
+```
+
+Python classifies this type of value as an **int**.
+
+#### Floats
+
+Floats are similar to integers but can contain decimal values. For example, 3.14, 45.56343, etc. Python classifies this type of value as a **float**.
 
 #### Boolean
 
@@ -107,5 +121,19 @@ However, the comparison operators will equal to True or False
 10 * 2 == 30 >>> False
 10 * 2 != 30 >>> True
 4 > 5 >>> False
+```
+
+Python classifies this type of a value as a **bool**.
+
+#### Casting
+
+There will be instances when you'll want your int to become a float or your str to become an int, etc. To do this we use something called casting.
+
+```
+a = 5    # a will be 5
+str_5 = str(5) # str_ will be "5"
+float_5 = float(5) # float_5 will be 5.0
+my_str = "124"
+b = int(124)   # b will be 124
 ```
 
