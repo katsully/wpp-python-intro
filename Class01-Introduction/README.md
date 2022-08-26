@@ -78,7 +78,7 @@ Note that naming syntax varies from programming language to programming language
 
 Strings are written expressions, or anything that appears in quotes. Strings can be enclosed in single quotes or double quotes. It makes no difference programmatically, but it is important to be consistent throughout to make your code more readable. "Hello, I'm Kat" is a string, "k" is a string, and "3534" is also a string. Python classifies this type of value as a **str**.
 
-#### Integers
+#### Integer
 
 Integer values are whole numbers, or numbers without a decimal. Note that integers **do not** have quotes around them. "354" is a string, but 354 is an integer. This is important because
 
@@ -89,7 +89,7 @@ Integer values are whole numbers, or numbers without a decimal. Note that intege
 
 Python classifies this type of value as an **int**.
 
-#### Floats
+#### Float
 
 Floats are similar to integers but can contain decimal values. For example, 3.14, 45.56343, etc. Python classifies this type of value as a **float**.
 
