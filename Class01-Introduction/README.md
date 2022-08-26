@@ -34,16 +34,10 @@ and hit enter.  This should open the notebook in your browser. Note your locatio
 
 ### Print Statements
 
-In our code, we'll be using a lot of print statements. Print statements print whatever you put inside parenthesis on the screen. For example
+In our code, we'll be using a lot of print statements. Print statements print whatever you put inside parenthesis on the screen. 
 
 ```python
-print("Hello World!")
-```
-
-will result in
-
-```
-Hello World!
+print("Hello World!") # returns Hello World!
 ```
 
 If you're looking at older Python code, you may notice it is written as 
@@ -105,7 +99,7 @@ Boolean values (named after George Boole) are used when we want to express wheth
 
 We also have the equal operator "==" and not equal to operator "!=". These are not to be confused with the single equal sign "="! 
 
-A single equal sign is used to assign value. For example,
+A single equal sign is used to assign value. 
 
 ```python
 x = 5
@@ -133,6 +127,7 @@ There will be instances when you'll want your int to become a float or your str 
 a = 5    # a will be 5
 str_5 = str(5) # str_ will be "5"
 float_5 = float(5) # float_5 will be 5.0
+
 my_str = "124"
 b = int(124)   # b will be 124
 ```
