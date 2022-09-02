@@ -134,3 +134,6 @@ Answers.ipynb
 # API keys
 keys.txt
 keys.json
+
+# pickle files
+*.pkl
