@@ -1,0 +1,7 @@
+{
+    "api_key": "<copy-and-paste-your-api-key-here>",
+    "api_secret": "<copy-and-paste-your-api-secret-key-here>",
+    "bearer_token": "<copy-and-paste-your-bearer-token-here>",
+    "access_token": "<copy-and-pate-your-access-token-here>",
+    "access_secret": "<copy-and-paste-your-access-secret-token-here>"
+}
