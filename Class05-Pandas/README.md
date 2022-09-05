@@ -37,7 +37,7 @@ venv is going to be the name of the virtual environment, this name can be anythi
 You should notice at the beginning of your command prompt line (venv). Now you call use pip install for your additional libraries. Once you are done using the project, you can deactivate the virtual environment with
 
 ```
-deactivate
+\venv\Scripts\deactivated
 ```
 
 

@@ -1,5 +1,33 @@
 # Class 6 - APIs
 
+## Twitter Developer Account
+
+To create a Twitter Developer Account, make sure you have a Twitter account (if you already have one you may use that but be aware we will be sending out tweets so you may want to create another account just for this class). Then go [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) and click 'Sign up'
+
+![Capture](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture.PNG)
+
+Then click 'Add App'
+
+![Capture2](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture2.PNG)
+
+Then select 'Development' for App Environment
+
+![Capture3](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture3.PNG)
+
+Give your app a name
+
+![Capture4](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture4.PNG)
+
+You will then see your API Key, API secret key, and bearer token. Be sure to save these somewhere! After hitting ok, you should be on the Settings Page for you app. Scroll down to User authentication settings and hit 'Set up'.
+
+![Capture5](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture5.PNG)
+
+Set up app permissions (Read and write) and select Type of App
+
+![Capture6](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture6.PNG)
+
+## Virtual Environment - NLTK
+
 For this class, we will be using the nltk stopwords. This requires a download which you can do with the following line:
 
 ```powershell
