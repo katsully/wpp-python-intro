@@ -137,3 +137,6 @@ keys.json
 
 # pickle files
 *.pkl
+
+# certificates
+*.cer

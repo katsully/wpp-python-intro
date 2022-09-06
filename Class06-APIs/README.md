@@ -24,7 +24,11 @@ You will then see your API Key, API secret key, and bearer token. Be sure to sav
 
 Set up app permissions (Read and write) and select Type of App
 
-![Capture6](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture6.PNG)
+![](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture6.PNG)
+
+Scroll down and fill out the rest of the app info. For callback URI you can use http://localhost and for website url put https://twitter.com/your-twitter-handle. You may leave the rest blank.
+
+![Capture7](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture7.PNG)
 
 ## Virtual Environment - NLTK
 
