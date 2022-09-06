@@ -21,7 +21,6 @@ auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_secret)
 
 api = tweepy.API(auth)
-# self.api = tweepy.API(self.auth)
 
 try:
 
@@ -35,18 +34,18 @@ except:
 
 # xkcd API request
 # documentation for the python wrapper here: https://github.com/Kronopt/xkcd-wrapper
-# xkcd_client = xkcd_wrapper.Client()
-# random_comic = xkcd_client.get_random()   # comic object of a random comic
+xkcd_client = xkcd_wrapper.Client()
 
 # random_int = random.randint(0, 2668)
 # url = "https://xkcd.com/" + str(random_int) + "/info.0.json"
 # random_comic = requests.get(url, headers = {'User-agent': 'your bot 0.1'}, verify=False).json()
 # print(random_comic)
-# def botTweet():
-# 	# tweet = "Here's a comic from the year " + str(random_comic['year']) + " and it's called " + random_comic['title'];
-# 	# print(tweet)
-# 	api.update_status("Hi")
+def botTweet():
+	random_comic = xkcd_client.get_random()   # comic object of a random comic
+	tweet = "Here's a comic from the year " + str(random_comic.date.year) + " and it's called " + random_comic.title;
+	print(tweet)
+	api.update_status(tweet)
 
-# while True:
-# 	botTweet()
-# 	time.sleep(30)
+while True:
+	botTweet()
+	time.sleep(30)

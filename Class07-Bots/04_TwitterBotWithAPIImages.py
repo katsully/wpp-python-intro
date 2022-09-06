@@ -2,6 +2,9 @@ import tweepy
 import json
 import xkcd_wrapper
 import time
+import urllib.request
+from PIL import Image
+import io
 
 credentials = "keys.json"
 with open(credentials, 'r') as keys:
@@ -35,10 +38,14 @@ xkcd_client = xkcd_wrapper.Client()
 
 def botTweet():
 	random_comic = xkcd_client.get_random()   # comic object of a random comic
+	
 	# upload your comic image
-	media = api.media_upload(random_comic.image_url)
+	url = random_comic.image_url
 	tweet = "Here's a comic from the year " + str(random_comic.date.year) + " and it's called " + random_comic.title;
-	api.update_status(status=tweet, media_ids=[media.media_id_string])
+	img = urllib.request.urlopen(url).read()
+	file_like_object = io.BytesIO(img)
+
+	api.update_status_with_media(tweet, random_comic.title, file=file_like_object)
 	print(tweet)
 
 while True:
