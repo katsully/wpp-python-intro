@@ -3,7 +3,6 @@ import json
 import xkcd_wrapper
 import time
 import urllib.request
-from PIL import Image
 import io
 
 credentials = "keys.json"
@@ -23,14 +22,10 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 try:
-
     api.verify_credentials()
-
     print("Authentication OK")
-
 except:
-
-    print("Error during authentication")
+	print("Error during authentication")
 
 # xkcd API request
 # documentation for the python wrapper here: https://github.com/Kronopt/xkcd-wrapper
@@ -45,6 +40,7 @@ def botTweet():
 	img = urllib.request.urlopen(url).read()
 	file_like_object = io.BytesIO(img)
 
+	# we're passing in the status (ie the tweet), the filename, and the file
 	api.update_status_with_media(tweet, random_comic.title, file=file_like_object)
 	print(tweet)
 
