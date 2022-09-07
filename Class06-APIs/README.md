@@ -2,7 +2,7 @@
 
 ## Twitter Developer Account
 
-To create a Twitter Developer Account, make sure you have a Twitter account (if you already have one you may use that but be aware we will be sending out tweets so you may want to create another account just for this class). Then go [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) and click 'Sign up'
+To create a Twitter Developer Account, make sure you have a Twitter account (if you already have one you may use that, but be aware we will be sending out tweets so you may want to create another account just for this class). Then go [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) and click 'Sign up'
 
 ![Capture](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture.PNG)
 
@@ -26,9 +26,11 @@ Set up app permissions (Read and write) and select Type of App
 
 ![](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture6.PNG)
 
-Scroll down and fill out the rest of the app info. For callback URI you can use http://localhost and for website url put https://twitter.com/your-twitter-handle. You may leave the rest blank.
+Scroll down and fill out the rest of the app info. For callback URI you can use http://localhost and for website url put https://twitter.com/your-twitter-handle. You may leave the rest blank. Then click OK at the bottom.
 
 ![Capture7](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture7.PNG)
+
+Grab your access token and access secret and you are ready to use the Twitter API!
 
 ## Virtual Environment - NLTK
 
