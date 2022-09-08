@@ -27,7 +27,6 @@ try:
 except:
 	print("Error during authentication")
 
-# xkcd API request
 # documentation for the python wrapper here: https://github.com/Kronopt/xkcd-wrapper
 xkcd_client = xkcd_wrapper.Client()
 
