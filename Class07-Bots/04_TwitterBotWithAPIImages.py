@@ -36,7 +36,7 @@ def botTweet():
 	
 	# upload your comic image
 	url = random_comic.image_url
-	tweet = "Here's a comic from the year " + str(random_comic.date.day) + " and it's called " + random_comic.title;
+	tweet = "Here's a comic from the year " + str(random_comic.date.year) + " and it's called " + random_comic.title;
 	img = urllib.request.urlopen(url).read()
 	file_like_object = io.BytesIO(img)
 
