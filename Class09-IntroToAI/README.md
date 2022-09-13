@@ -1,0 +1,7 @@
+# Class 9 - Intro to AI
+
+AI seems to be everywhere. Every algorithm seems to use machine learning, deep fake technology is spreading misinformation like never before, and the dall e image generator is all the rage. But what is AI? What is machine learning? deep learning? neural networks? To not understand these systems, and the impact they can have is a mistake too many developers are making. It's easy for folks to make Artificial Intelligence out to be a black box of mystery and wonder - something that will compel us as a society into the next great technological era. But if we don't understand it, appreciate it, AND critique it, the next technological era might not be so great. 
+
+The term **Artificial Intelligence** was first coined in 1955 at Dartmouth College by Professor John McCarthy. Back then, computers were just that - things that computed data. They took up a massive amount of space and had less computing power than your smartphone. These machines weren't capable of mimicking an intelligent human lifeform, but it did launch a fascinating area of researcher that combines Computer Science, Psychology, and Philosophy.
+
+So what is Artificial Intelligence? Doug Rose defines it as, "Any system that exhibits behavior that could be interpreted as human intelligence". Is Artificial Intelligence the same thing as Machine Learning? No, but we'll get there.
