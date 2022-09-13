@@ -4,6 +4,8 @@
 
 To create a Twitter Developer Account, make sure you have a Twitter account (if you already have one you may use that, but be aware we will be sending out tweets so you may want to create another account just for this class). Then go [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api) and click 'Sign up'
 
+![image-20220913123957072](C:\Users\kat.sullivan\AppData\Roaming\Typora\typora-user-images\image-20220913123957072.png)
+
 ![Capture](https://rawgit.com/katsully/wpp-python-intro/tree/main/Class06-APIs/DevAccount/Capture.PNG)
 
 Then click 'Add App'
