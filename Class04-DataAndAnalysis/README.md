@@ -10,7 +10,7 @@ Data Science is a mixed of
 
 - Detective Skills!
 
-  ![funny tweet](./Media/Capture.PNG)
+  ![funny tweet](./Media/Capture.png)
 
 Data can be complex, enormous, and beyond tedious to parse by hand. This is why we need tools, like Python, to help us. Data can be used to determine Twitter trends, [prove biased practices by corporations](https://www.propublica.org/article/minority-neighborhoods-higher-car-insurance-premiums-white-areas-same-risk), and Facebook even used their data to draw out [global migration patterns](https://www.facebook.com/notes/10158928002728415/).
 
