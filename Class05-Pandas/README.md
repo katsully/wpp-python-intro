@@ -48,7 +48,7 @@ Pandas is an open-source data analysis and manipulation tool built on top of the
 
 The key data structure for Pandas is called the **DataFrame** (often referred to as dt in code).
 
-![](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class05-Pandas\01_table_dataframe.svg)
+![dataframe](./Media/01_table_dataframe.svg)
 
 As we can see, a DataFrame is a two-dimensional structure containing columns and rows. The cell values can contain different types of data such as strings, ints, floats, bools, lists, etc. It offers a lot more functionality than our previous examples using pure Python. Pandas calculations are also typically faster than typical Python objects.
 
