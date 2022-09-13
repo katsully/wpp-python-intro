@@ -8,27 +8,27 @@ To create a Twitter Developer Account, make sure you have a Twitter account (if 
 
 Then click 'Add App'
 
-![Capture2](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture2.PNG)
+![step2](./DevAccount/Capture2.PNG)
 
 Then select 'Development' for App Environment
 
-![Capture3](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture3.PNG)
+![Capture3](./DevAccount/Capture3.PNG)
 
 Give your app a name
 
-![Capture4](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture4.PNG)
+![Capture4](./DevAccount/Capture4.PNG)
 
 You will then see your API Key, API secret key, and bearer token. Be sure to save these somewhere! After hitting ok, you should be on the Settings Page for you app. Scroll down to User authentication settings and hit 'Set up'.
 
-![Capture5](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture5.PNG)
+![Capture5](./DevAccount/Capture5.PNG)
 
 Set up app permissions (Read and write) and select Type of App
 
-![](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture6.PNG)
+![](./DevAccount/Capture6.PNG)
 
 Scroll down and fill out the rest of the app info. For callback URI you can use http://localhost and for website url put https://twitter.com/your-twitter-handle. You may leave the rest blank. Then click OK at the bottom.
 
-![Capture7](C:\Users\kat.sullivan\School\Classes\wpp-python-intro\Class06-APIs\DevAccount\Capture7.PNG)
+![Capture7](./DevAccount/Capture7.PNG)
 
 Grab your access token and access secret and you are ready to use the Twitter API!
 
