@@ -134,6 +134,7 @@ Answers.ipynb
 # API keys
 keys.txt
 keys.json
+spotify_keys.json
 
 # pickle files
 *.pkl
