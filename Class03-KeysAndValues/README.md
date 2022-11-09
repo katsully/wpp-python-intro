@@ -32,7 +32,7 @@ An example of JSON:
 If you really want to unlock the magic of Python, we need to talk about **dictionaries**. The building blocks of a dictionary are key-value pairs. A key value pair maps a value to a key. Values can be changed but keys cannot. I like to think about houses on a street, the addresses (keys) will stay the same, but the people living there (values) may change over the years. Let's use some famous addresses to illustrate this point.
 
 ```python
-my_dict = {"Buckingham Palace": "The Queen", "Clarence House": "Prince Charles"}
+my_dict = {"Clarence House": "King Charles", "Windsor Castle": "Prince Williams"}
 ```
 
 Note that dictionaries, unlike lists, are contained in squiggly-brackets {}. The colon : is used to map the key-value pair, and commas separate out the pairs. Does this look a bit like JSON to you? Good catch! They are very similar, but we have more flexibility to manipulate data with dictionaries. 
@@ -40,10 +40,10 @@ Note that dictionaries, unlike lists, are contained in squiggly-brackets {}. The
 We can add to the dictionary as well.
 
 ```python
-my_dict["Kensington Palace"] = "Prince Williams"
+my_dict["Gatcombe Park"] = "Princess Anne"
 
-# my_dict is now {"Buckingham Palace": "The Queen", "Clarence House": "Prince Charles", "Kensington Palace": "Prince Williams"}
-# note: if "Kensington Palace" was already a key in the dictionary, it would simply update the associated value with "Prince Williams"
+# my_dict is now {"Clarence House": "King Charles", "Windsor Castle": "Prince Williams", "Gatcombe Park": "Princess Anne"}
+# note: if "Gatcombe Park" was already a key in the dictionary, it would simply update the associated value with "Princess Anne"
 ```
 
 However, we may want to make this is little more complex. For example, I also might want to include Camilla and Kate. (Side note: As an American, I have no idea if these women get a title. Are they a duchess? What is a duchess? Will I be deported for not including their titles? But I'm getting carried away here). 
@@ -51,7 +51,7 @@ However, we may want to make this is little more complex. For example, I also mi
 With dictionaries, values can be more complex than a single entity. Values can be lists or even a nested dictionary. Let's redo *my_dict*
 
 ```python
-my_dict = {"Buckingham Palace": "The Queen", "Clarence House": ["Prince Charles", "Camilla"], "Kensington Palace": ["Prince Williams", "Kate"]}
+my_dict ={"Clarence House": ["King Charles", "Camilla"], "Windsor Castle": ["Prince Williams", "Kate"], "Gatcombe Park": "Princess Anne"}
 ```
 
 Remember [] means it contains a list, {} means it contains a dictionary.
