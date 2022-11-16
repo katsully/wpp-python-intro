@@ -31,13 +31,13 @@ virtualenv venv
 venv is going to be the name of the virtual environment, this name can be anything you want but venv is pretty common. Once you have created the virtual environment, activate it by typing
 
 ```
-\venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 You should notice at the beginning of your command prompt line (venv). Now you call use pip install for your additional libraries. Once you are done using the project, you can deactivate the virtual environment with
 
 ```
-\venv\Scripts\deactivated
+venv\Scripts\deactivated
 ```
 
 
