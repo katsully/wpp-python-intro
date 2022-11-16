@@ -141,3 +141,6 @@ spotify_keys.json
 
 # certificates
 *.cer
+
+# datasets that are too big
+DOB_Complaints_Received.csv
