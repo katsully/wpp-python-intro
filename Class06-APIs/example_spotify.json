@@ -1,0 +1,6 @@
+{
+    "username": "your username",
+    "client_id": "your client id",
+    "client_secret": "your client secret",
+    "redirect": "http://google.com/"
+}
