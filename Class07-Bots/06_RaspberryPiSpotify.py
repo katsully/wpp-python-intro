@@ -19,15 +19,16 @@ redirectURI = api_tokens["redirect"]
 username = api_tokens["username"]
 weather_key = api_tokens["weather_api"]
 
+# UNCOMMENT TO USE SYSTEM ARGUMENTS!!!
+# city = sys.argv[1]
+# request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + weather_key)
+
 # copy and paste the url into your browser to see what data you are getting back
-# request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID="+weather_key)
-# response = urllib.request.urlopen(request)
+request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=" + weather_key)
+response = urllib.request.urlopen(request)
 
-# weather = json.loads(response.read())
-# forecast = weather["weather"][0]["description"]
-
-forecast = "moderate rain"
-# forecast = sys.argv[1]
+weather = json.loads(response.read())
+forecast = weather["weather"][0]["description"]
 
 
 scope = 'user-read-private user-read-playback-state user-modify-playback-state playlist-modify-public'
@@ -44,11 +45,9 @@ tracks = track_results['tracks']['items']
 
 # URI = uniform resource identifier
 track_selection_list = []
-track_art = []
 
 for song in tracks:
     track_selection_list.append(song['uri'])
-    track_art.append(song['album']['images'][0]['url'])
 
 my_playlist = sp.user_playlist_create(user=username, name=forecast, public=True,
                                       description="Songs for the weather")
