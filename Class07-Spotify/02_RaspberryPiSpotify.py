@@ -20,11 +20,11 @@ username = api_tokens["username"]
 weather_key = api_tokens["weather_api"]
 
 # UNCOMMENT TO USE SYSTEM ARGUMENTS!!!
-# city = sys.argv[1]
-# request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + weather_key)
+city = sys.argv[1]
+request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=" + weather_key)
 
 # copy and paste the url into your browser to see what data you are getting back
-request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=" + weather_key)
+# request = urllib.request.Request("http://api.openweathermap.org/data/2.5/weather?q=London&APPID=" + weather_key)
 response = urllib.request.urlopen(request)
 
 weather = json.loads(response.read())
@@ -52,5 +52,6 @@ for song in tracks:
 my_playlist = sp.user_playlist_create(user=username, name=forecast, public=True,
                                       description="Songs for the weather")
 results = sp.user_playlist_add_tracks(username, my_playlist['id'], track_selection_list)
-webbrowser.open(my_playlist['external_urls']['spotify'])
 
+def playlist():
+    webbrowser.open(my_playlist['external_urls']['spotify'])
